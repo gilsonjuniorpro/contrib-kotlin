@@ -2,8 +2,14 @@
     <string name="app_name">Contrib Montano</string>
     <string name="delicinha">Michel Teló</string>
     <string name="get_github_repositories">Get gitHub Repositories</string>
-    <string name="github_user">github user</string>
+    <string name="github_user">Github user</string>
     <string name="search">Search</string>
     <string name="type_repository_name">type repository name</string>
     <string name="repository_not_found">repository not found</string>
+    <string name="repositories_found">99 repositories found</string>
+
+    <plurals name="numberOfRepositoriesFound">
+        <item quantity="one">%d repository found.</item>
+        <item quantity="other">%d repositories found.</item>
+    </plurals>
 </resources>

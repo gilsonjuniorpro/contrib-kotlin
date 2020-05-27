@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
             if (it.isEmpty()) {
                 Mark.showAlertError(this, getString(R.string.type_repository_name))
             } else {
+                val count = it.size
+                binding.tvQuantity.text = resources.getQuantityString(R.plurals.numberOfRepositoriesFound, count, count)
                 binding.recycler.adapter = ReposAdapter(it)
             }
         })
