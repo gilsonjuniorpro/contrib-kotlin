@@ -1,7 +1,7 @@
 # contrib-kotlin
 
 ### 📷 How is this App
-<img src="screenshot_2020-05-26_232719.png" width="50%"></img>
+<img src="screenshot_2020-05-27-112708.png" width="50%"></img>
 
 
 ### 💻Technology
